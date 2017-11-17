@@ -1,0 +1,14 @@
+sphinx==1.5.3
+sphinx_rtd_theme
+gitchangelog
+pythonbenchmark
+typeguard
+sphinx-autodoc-typehints
+pyyaml
+cython
+nose
+check-manifest
+flake8
+pympler
+coverage
+sphinxcontrib-versioning
