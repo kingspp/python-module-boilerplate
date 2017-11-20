@@ -1,4 +1,8 @@
 # python-module-boilerplate
+[![Contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=plastic)](CONTRIBUTING.md)
+[![License](https://img.shields.io/github/license/mashape/apistatus.svg)](https://opensource.org/licenses/mit)
+![completion](https://img.shields.io/badge/completion%20state-75%25-blue.svg?style=plastic)
+
 Python Module Boilerplate
 
 ### Features:
