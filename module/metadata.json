@@ -1,0 +1,17 @@
+{
+  "__name__": "module",
+  "__version__": "0.0.0",
+  "__description__": "Module Description",
+  "__author__": "author name",
+  "__email__": "author email",
+  "__license__": "",
+  "__classifiers__": [
+    "Development Status :: 0 - Alpha",
+    "Intended Audience :: Developers",
+    "Topic :: Software Development :: Build Tools",
+    "Programming Language :: Python :: 3.5",
+    "Programming Language :: Python :: 3.6"
+  ],
+  "__url__": "repository url",
+  "__keywords__": "module keywords"
+}
