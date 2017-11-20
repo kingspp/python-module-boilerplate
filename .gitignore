@@ -89,3 +89,7 @@ ENV/
 .ropeproject
 
 .idea/*
+sphinx-docs/
+_build/
+/cover/
+*.bak
