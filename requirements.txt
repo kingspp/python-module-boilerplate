@@ -12,3 +12,4 @@ flake8
 pympler
 coverage
 sphinxcontrib-versioning
+bunch
