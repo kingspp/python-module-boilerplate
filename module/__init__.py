@@ -13,7 +13,7 @@
 """
 import os
 from module.logging_config_manager import setup_logging
-
+MODULE_PATH = os.path.dirname(os.path.abspath(__file__))
 
 class Singleton(type):
     """
