@@ -47,18 +47,6 @@ class CommonConfig(object):
             raise Exception('Key Error. Config Error', ke)
 
 
-class MetadataConfig(object):
-    """
-    | **@author:** Prathyush SP
-    |
-    | Metadata Configuration Manager
-    """
-
-    @typechecked
-    def __init__(self, metadata_config: Union[dict, OrderedDict]):
-        self.METADATA = metadata_config
-
-
 class ConfigManager(metaclass=Singleton):
     """
     | **@author:** Prathyush SP
@@ -79,7 +67,6 @@ class ConfigManager(metaclass=Singleton):
                 'Configuration file path error. Please provide configuration file path: ' + config_file_path, e)
         try:
             self.CommonConfig = CommonConfig(MODULE_CONFIG_DATA['common_config'])
-            self.MetadataConfig = MetadataConfig(MODULE_CONFIG_DATA['metadata_config'])
         except KeyError as ke:
             raise Exception('Key not found. ', ke)
 
